@@ -36,7 +36,7 @@ function Nav() {
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
-                        <a data-testid="about" href="#about" onClick={() => handleClick("About")}>
+                        <a data-testid="about" href="#about" /* onClick={() => handleClick("About")} */>
                             About me
                         </a>
                     </li>
